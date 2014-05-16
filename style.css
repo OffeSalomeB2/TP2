@@ -1,12 +1,12 @@
 #container
 {
 	margin: 0 30px;
-	background: #fff;
+	background: #3366FF;
 }
 
 #header
 {
-	background: #ccc;
+	background: #FFFFFF;
 	padding: 20px;
 }
 
@@ -16,7 +16,7 @@
 {
 	float: left;
 	width: 100%;
-	background: #333;
+	background: #FFFFFF;
 }
 
 #navigation ul
@@ -28,6 +28,7 @@
 #navigation ul li
 {
 	list-style-type: none;
+	color: #FFFFFF;
 	display: inline;
 }
 
@@ -36,59 +37,61 @@
 	display: block;
 	float: left;
 	padding: 5px 10px;
-	color: #fff;
+	color: #FFFFFF;
 	text-decoration: none;
-	border-right: 1px solid #fff;
+	border-right: 1px solid #FFFFFF;
 }
 
-#navigation li a:hover { background: #383; }
+#navigation li a:hover { background: #FFFFFF; }
 
 #edito
 {
 	clear: left;
+	color: #FFFFFF;
 	padding: 20px;
 	margin: 20px;
 	-webkit-border-radius: 18px;
 	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
+	-webkit-box-shadow: 0px 0px 6px #FFFFFF;
+	box-shadow: 0px 0px 6px #FFFFFF;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
 	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
-	opacity: 0.83;
+	opacity: 0.93;
 }
 
 #edito h2
 {
-	color: #000;
-	font-size: 160%;
+	color: #FFFFFF;
+	font-size: 180%;
 	margin: 0 0 .5em;
 }
 
 #news
 {	
 	float: left;
+	color: #FFFFFF;
 	width: 40%;
 	padding: 20px;
 	margin: 20px;
 	-webkit-border-radius: 18px;
 	border-radius: 18px;
-	-webkit-box-shadow: 0px 0px 6px #000000;
-	box-shadow: 0px 0px 6px #000000;
+	-webkit-box-shadow: 0px 0px 6px #FFFFFF;
+	box-shadow: 0px 0px 6px #FFFFFF;
 	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
 	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
-	opacity: 0.83;
+	opacity: 0.93;
 }
 
 #footer
 {
 	clear: both;
-	background: #ccc;
+	background: #FFFFFF;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
